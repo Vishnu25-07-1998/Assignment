@@ -1,0 +1,25 @@
+.card {
+  padding: 1rem; 
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+  width: 240px; 
+  text-align: center;
+  background-color: white;
+}
+
+.delete {
+  float: right;
+}
+
+.image {
+  height: 96px; 
+  display: block;
+  margin: 0 auto; 
+}
+
+.name {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}

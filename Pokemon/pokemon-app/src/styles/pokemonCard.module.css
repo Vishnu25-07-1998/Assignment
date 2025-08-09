@@ -1,0 +1,45 @@
+.card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 240px;
+  text-align: center;
+}
+
+.image {
+  height: 128px;
+  display: block;
+  margin: 0 auto;
+}
+
+.name {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.types {
+  font-size: 0.875rem;
+  color: #555;
+}
+
+.stats {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #333;
+}
+
+.addButton {
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  background-color: #22c55e; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #16a34a; 
+}
